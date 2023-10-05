@@ -46,4 +46,23 @@ let str3 = str1 + str2
 //console.log(+false)    //durity conversion
 
 
+//*************infix and prifix ********************************** */
+let x = 3;
+const y = x++;
 
+
+console.log(`x:${x}, y:${y}`);
+// Expected output: "x:4, y:3"
+
+let c = 3;
+const d = ++a;
+
+console.log(`a:${c}, b:${d}`);
+// Expected output: "a:4, b:4"
+
+
+
+
+// let sr = "amit"
+// console.log(`hello ${sr}`)
+//console.log("name =" ${sr})
